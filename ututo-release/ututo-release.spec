@@ -301,9 +301,9 @@ ln -s ututo-release %{buildroot}%{_sysconfdir}/system-release
 cat << EOF >> os-release
 NAME="Ututo GNU/Linux"
 VERSION="%{ututo_version} (%{release_name})"
-ID=ututo
+ID=fedora
 VERSION_ID=%{ututo_version}
-VERSION_CODENAME=""
+VERSION_CODENAME="Araucaria"
 PLATFORM_ID="platform:f%{dist_version}"
 PRETTY_NAME="Ututo Linux %{ututo_version} (%{release_name})"
 ANSI_COLOR="0;38;2;60;110;180"
