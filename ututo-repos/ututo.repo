@@ -1,0 +1,12 @@
+[ututo]
+name=Ututo 11
+baseurl=http://ututo.nivel7.com.ar/ututo/updates/11/
+enabled=1
+countme=1
+metadata_expire=7d
+repo_gpgcheck=0
+type=rpm
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ututo-$releasever-$basearch
+skip_if_unavailable=False
+
