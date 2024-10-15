@@ -1,7 +1,7 @@
 Summary:        Ututo package repositories
 Name:           ututo-repos
 Version:        40
-Release:        1
+Release:        2
 License:        MIT
 URL:            https://ututo.ar/
 
@@ -65,5 +65,8 @@ done
 
 
 %changelog
+* Tue Oct 12 2024 Guillermo Joandet <gjoandet@gmail.com> - 40-1
+- Change repository location
+
 * Sat Oct 12 2024 Guillermo Joandet <gjoandet@gmail.com> - 40-1
 - Initial version
