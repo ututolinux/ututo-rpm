@@ -1,7 +1,7 @@
 Summary:        Ututo package repositories
 Name:           ututo-repos
-Version:        40
-Release:        2
+Version:        42
+Release:        1
 License:        MIT
 URL:            https://ututo.ar/
 
@@ -65,8 +65,11 @@ done
 
 
 %changelog
-* Tue Oct 12 2024 Guillermo Joandet <gjoandet@gmail.com> - 40-1
+* Sat Apr 19 2025 Guillermo Joandet <gjoandet@gmail.com> - 41-2
+- Bump to fedora 42
+
+* Tue Oct 12 2024 Guillermo Joandet <gjoandet@gmail.com> - 41-2
 - Change repository location
 
-* Sat Oct 12 2024 Guillermo Joandet <gjoandet@gmail.com> - 40-1
+* Sat Oct 12 2024 Guillermo Joandet <gjoandet@gmail.com> - 41-1
 - Initial version

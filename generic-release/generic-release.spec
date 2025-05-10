@@ -1,13 +1,13 @@
 %global ututo_version 11
-%global release_name Once-alfa
+%global release_name Araucaria-beta
 # If you're not building this on Fedora, you're going to have a bad day.... but whatever.
-%global dist_version 40
-%global fedora_version 40
+%global dist_version 42
+%global fedora_version 42
 
 Summary:	Ututo release files
 Name:		generic-release
 Version:	%{dist_version}
-Release:	0.2
+Release:	0.3
 License:	MIT
 Source0:	LICENSE
 Source1:	README.developers
@@ -188,6 +188,9 @@ install -Dm0644 %{SOURCE9} -t $RPM_BUILD_ROOT%{_prefix}/lib/systemd/user-preset/
 
 
 %changelog
+* Sat Apr 19 2025 Guillermo Joandet <gjoandet@gmail.com> - 42-0.3
+- bump to fedora 42
+
 * Wed Oct 2 2024 Guillermo Joandet <gjoandet@gmail.com> - 40-0.2
 - first ututo version
 

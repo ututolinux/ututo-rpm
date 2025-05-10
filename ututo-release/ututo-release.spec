@@ -1,11 +1,11 @@
 %global ututo_version 11
-%global release_name Araucaria-alfa
+%global release_name Araucaria-beta
 
 %define is_rawhide 0
 
 %define eol_date 2025-05-13
 
-%define dist_version 40
+%define dist_version 42
 %define rhel_dist_version 10
 
 %if %{is_rawhide}
@@ -89,7 +89,7 @@
 
 Summary:        Ututo release files
 Name:           ututo-release
-Version:        40
+Version:        42
 # The numbering is 0.<r> before a given Fedora Linux release is released,
 # with r starting at 1, and then just <r>, with r starting again at 1.
 # Use '%%autorelease -p' before final, and then drop the '-p'.
