@@ -1,6 +1,6 @@
 Name:		ututo-logos
 Summary:	Ututo-related icons and pictures
-Version:	40.0.0
+Version:	42.0.0
 Release:	1%{?dist}
 URL:            https://github.com/ututolinux/ututo-packages
 Source0:        %{URL}/releases/download/v0.2.0-alpha/ututo-logos.tgz
@@ -395,6 +395,9 @@ hardlink -vv %{buildroot}/usr
 
 
 %changelog
+* Sat Apr 19 2025 Guillermo Joandet <gjoandet@gmail.com> - 42.0.0
+- bump to fedora 42
+
 * Mon Jan 29 2024 Tom Callaway <spot@fedoraproject.org> - 38.1.0-5
 - fix BR to reflect new macro provides for kde4 macros
 
