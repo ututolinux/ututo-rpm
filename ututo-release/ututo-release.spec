@@ -3,7 +3,7 @@
 
 %define is_rawhide 0
 
-%define eol_date 2025-05-13
+%define eol_date 2026-05-13
 
 %define dist_version 42
 %define rhel_dist_version 10
@@ -93,7 +93,7 @@ Version:        42
 # The numbering is 0.<r> before a given Fedora Linux release is released,
 # with r starting at 1, and then just <r>, with r starting again at 1.
 # Use '%%autorelease -p' before final, and then drop the '-p'.
-Release:        %autorelease
+Release:        2
 License:        MIT
 URL:            https://ututo.ar/
 
@@ -459,6 +459,9 @@ ln -s --relative %{buildroot}%{_swidtagdir} %{buildroot}%{_sysconfdir}/swid/swid
 
 
 %changelog
+* Sun May 18 2025 Guillermo Joandet <gjoandet@gmail.com> - 42.2
+- Set release to 2.
+
 * Thu Apr 06 2023 Kevin Fenzi <kevin@scrye.com> - 38-34
 - Set release to start at 1 for final release.
 
